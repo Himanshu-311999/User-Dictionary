@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.left-side {
+  flex: 1;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.right-side {
+  flex: 2;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
